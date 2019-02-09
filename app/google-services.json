@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265257242706",
+    "firebase_url": "https://travelmaker-e2391.firebaseio.com",
+    "project_id": "travelmaker-e2391",
+    "storage_bucket": "travelmaker-e2391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265257242706:android:dc898d5bf6540c82",
+        "android_client_info": {
+          "package_name": "com.example.travelmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265257242706-uc1kd758oih3j7a7no7k0vupkd5c9inm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelmaker",
+            "certificate_hash": "ce4b894e933d2bc57395f77e550b0cf7ea36c084"
+          }
+        },
+        {
+          "client_id": "265257242706-2j8jps64tnmq2nm0cr5ononsf15q3jau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxDIetJJuP61Gx5bXbQrTciF-lqAwMIGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265257242706-2j8jps64tnmq2nm0cr5ononsf15q3jau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
