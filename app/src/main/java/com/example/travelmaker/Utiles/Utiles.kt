@@ -22,4 +22,5 @@ object Utils{
         val mFile = RequestBody.create(MediaType.parse("images/*"), file)
         return MultipartBody.Part.createFormData(name, file.name, mFile)
     }
+
 }

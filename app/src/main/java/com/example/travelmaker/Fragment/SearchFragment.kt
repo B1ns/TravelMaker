@@ -9,16 +9,12 @@ import android.view.ViewGroup
 import com.example.travelmaker.R
 
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+class SearchFragment : androidx.fragment.app.Fragment() {
 
-/**
- * A simple [Fragment] subclass.
- *
- */
-class SearchFragment : Fragment() {
+    companion object {
+        @JvmStatic
+        fun newInstance() = SearchFragment()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
