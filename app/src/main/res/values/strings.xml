@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TravelMaker</string>
+    <string name="app_name">Travel Maker</string>
     <string name="splash_text">© Team traveler Maker - Beautiful Sisters</string>
     <string name="home">홈</string>
     <string name="search">검색</string>
@@ -15,4 +15,8 @@
     <string name="sew">계곡</string>
     <string name="island">섬</string>
     <string name="hotple">핫플ACE</string>
+    <string name="city">시티투어</string>
+    <string name="randmark">랜드마크</string>
+    <string name="fork">맛집</string>
+    <string name="left"><![CDATA[<]]></string>
 </resources>

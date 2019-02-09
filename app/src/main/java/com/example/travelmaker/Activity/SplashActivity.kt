@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.travelmaker.R
+import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
 
@@ -17,5 +18,7 @@ class SplashActivity : AppCompatActivity() {
             startActivity(Intent(this@SplashActivity, MainActivity::class.java))
             finish()
         }, 2000)
+
+        lottie.playAnimation()
     }
 }
