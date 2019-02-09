@@ -8,4 +8,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="traveler_maker">Traveler Maker</string>
+    <string name="text_one">여행을 통해 즐거운 추억을 만들어보세요.</string>
+    <string name="mountains">산</string>
+    <string name="summer">바다</string>
+    <string name="sew">계곡</string>
+    <string name="island">섬</string>
+    <string name="hotple">핫플ACE</string>
 </resources>
