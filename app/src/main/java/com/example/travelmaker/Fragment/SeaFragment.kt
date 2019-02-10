@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import com.example.travelmaker.R
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_sea.*
+import kotlinx.android.synthetic.main.fragment_sea.view.*
 
 
 class SeaFragment : androidx.fragment.app.Fragment() {
@@ -26,12 +27,13 @@ class SeaFragment : androidx.fragment.app.Fragment() {
 
         val fragmentManager = fragmentManager
         val fragmentTransaction = fragmentManager!!.beginTransaction()
-        po.setOnClickListener {
+
+
+        val view = inflater.inflate(R.layout.fragment_sea, container, false)
+        view.po.setOnClickListener {
             fragmentTransaction.replace(android.R.id.content, PoFragment.newInstance())
             fragmentTransaction.commit()
         }
-
-        val view = inflater.inflate(R.layout.fragment_sea, container, false)
         return view
     }
 

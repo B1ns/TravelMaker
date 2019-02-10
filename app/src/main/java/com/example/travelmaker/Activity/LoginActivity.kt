@@ -80,9 +80,9 @@ class LoginActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedLis
         }
     }
 
-    private fun loginSucceed(user : FirebaseUser?){
-        if(user != null){
-            Toast.makeText(this@LoginActivity,"로그인 성공 !", Toast.LENGTH_SHORT).show()
+    private fun loginSucceed(user: FirebaseUser?) {
+        if (user != null) {
+            Toast.makeText(this@LoginActivity, "로그인 성공 !", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }

@@ -24,12 +24,11 @@ class PoFragment : androidx.fragment.app.Fragment() {
     ): View? {
 
         val view = inflater.inflate(R.layout.fragment_po, container, false)
-        checkBox.setOnClickListener {
+        view.checkBox.setOnClickListener {
             text.text = "1"
         }
         // Inflate the layout for this fragment
         return view
     }
-
 
 }
